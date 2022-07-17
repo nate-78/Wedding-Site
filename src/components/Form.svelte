@@ -1,5 +1,5 @@
 <script>
-
+  import Input from "./controls/Input.svelte";
 </script>
 
 
@@ -8,13 +8,15 @@
   <div class="form">
     <form action="">
       <div class="form-control">
-        <input type="text" id="name" placeholder="Name" required />
+        <Input label="Name" fieldName="name" required="true" />
       </div>
       <div class="form-control">
-        <input type="text" id="email-phone" placeholder="Email or Cell #" required />
+        <Input label="Email or Cell #" fieldName="email-phone" required="true" />
+        <!-- <input type="text" id="email-phone" placeholder="Email or Cell #" required /> -->
       </div>
       <div class="form-control">
-        <input type="number" id="num-guests" placeholder="Number of Guests (including you!)" required />
+        <!-- <input type="number" id="num-guests" placeholder="Number of Guests (including you!)" required /> -->
+        <Input label="Number of Guests (including you!)" fieldName="num-guests" required="true" type="number" />
       </div>
       <div class="form-action">
         <button type="submit" class="btn">Submit</button>
@@ -32,13 +34,13 @@
     background: white;
     border-radius: 3px;
     width: 100%;
-    max-width: 375px;
+    max-width: 570px;
     margin: auto;
     padding: 2rem 1rem;
   }
   .form-control {
     width: 100%;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
   }
   .form-control input {
     width: 100%;
@@ -47,5 +49,8 @@
     border-radius: 3px;
     padding: 10px 5px;
     font-size: 1.2rem;
+  }
+  .form-action {
+    margin-top: 3rem;
   }
 </style>

@@ -10,7 +10,9 @@
     cssClass="cover"
   />
   <div class="headline">
-    <h1>Lindsay + Nathan</h1>
+    <h1>
+      <img src="img/L&N.png" alt="Lindsay + Nathan" />
+    </h1>
   </div>
 </div>
 
@@ -20,6 +22,7 @@
     max-width: 2800px;
     margin: auto;
     position: relative;
+    margin-bottom: 3rem;
   }
   .headline {
     position: absolute;
@@ -32,8 +35,10 @@
   }
   .headline h1 {
     position: relative;
-    top: 20%;
     color: black;
     font-size: 5rem;
+  }
+  .headline h1 img {
+    width: 570px;
   }
 </style>

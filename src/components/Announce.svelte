@@ -9,9 +9,10 @@
     <span>Smith</span>
   </div>
   <div class="col">
-    <div class="huge">
+    <!-- <div class="huge">
       &amp;
-    </div>
+    </div> -->
+    <img src="img/And.png" alt="and" />
   </div>
   <div class="col right">
     <span>James</span>
@@ -30,9 +31,9 @@
     text-align: center;
   }
   .col span {
-    font-size: 2rem;
-    font-size: 2.5rem;
-    font-weight: 700;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    letter-spacing: 21px;
   }
   /* .col.left {
     text-align: right;
@@ -41,9 +42,14 @@
     text-align: left;
   } */
   .huge {
-    font-size: 9rem;
+    font-size: 7rem;
     line-height: 1;
     position: relative;
     top: -4px;
   }
+  img {
+    width: 150px;
+    position: relative;
+    top: 30px;
+}
 </style>

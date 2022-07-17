@@ -32,6 +32,7 @@
   }
   .box.outer {
     padding: 1rem;
+    margin-bottom: 3rem;
   }
   .box.inner {
     padding: 4rem 1rem;
