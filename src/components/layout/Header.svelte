@@ -29,7 +29,7 @@
   }
   ul li {
     margin-left: 1rem;
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .row {
