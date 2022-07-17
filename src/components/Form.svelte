@@ -42,14 +42,6 @@
     width: 100%;
     margin-bottom: 1.5rem;
   }
-  .form-control input {
-    width: 100%;
-    border: none;
-    border: 1px solid #333;
-    border-radius: 3px;
-    padding: 10px 5px;
-    font-size: 1.2rem;
-  }
   .form-action {
     margin-top: 3rem;
   }

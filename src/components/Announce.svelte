@@ -41,12 +41,12 @@
   .col.right {
     text-align: left;
   } */
-  .huge {
+  /* .huge {
     font-size: 7rem;
     line-height: 1;
     position: relative;
     top: -4px;
-  }
+  } */
   img {
     width: 150px;
     position: relative;
