@@ -2,7 +2,11 @@
   <div class="container">
     <div class="row">
       <div class="logo">
-        Lindsay + Nathan
+        September 3, 2022
+      </div>
+
+      <div>
+        Birmingham, AL
       </div>
 
       <nav>
@@ -19,6 +23,7 @@
 <style>
   header {
     padding: 1rem 0;
+    font-size: 17px;
   }
   ul {
     list-style: none;
@@ -27,9 +32,8 @@
     margin: 0;
     padding: 0;
   }
-  ul li {
-    margin-left: 1rem;
-    font-size: 18px;
+  ul li + li {
+    margin-left: 2rem;
   }
 
   .row {

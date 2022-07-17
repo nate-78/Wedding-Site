@@ -1,7 +1,10 @@
 :root {
   --font-body: 'EB Garamond', serif;
   --font-headings: 'EB Garamond', serif;
-  --font-color: #333;
+  --font-color-dark: #333;
+  --font-color-light: #f3f3f3;
+  --font-color-light: white;
+  --olive: #5e6633;
 }
 
 * {
@@ -12,7 +15,8 @@ body {
   font-family: var(--font-body);
   font-size: 20px;
   line-height: 1.3;
-  color: var(--font-color);
+  background: var(--olive);
+  color: var(--font-color-light);
   margin: 0;
 }
 
@@ -47,4 +51,20 @@ h2 {
 }
 h3 {
   font-size: 1.3rem;
+}
+
+a {
+  color: white;
+  text-decoration-color: #aaa;
+  text-decoration-thickness: 2px;
+  transition: .3s;
+  font-weight: 700;
+}
+a:hover {
+  /* filter: brightness(.8); */
+  text-shadow: 0 0px 8px rgb(255 255 255 / 70%);
+}
+
+img {
+  max-width: 100%;
 }
