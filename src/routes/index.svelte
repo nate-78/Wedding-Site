@@ -7,6 +7,10 @@
   import Form from "../components/Form.svelte";
 </script>
 
+<svelte:head>
+  <title>Lindsay & Nathan's Wedding</title>
+</svelte:head>
+
 <Header />
 
 <Banner />
@@ -29,6 +33,7 @@
 <style>
   .box {
     border: 2px solid white;
+    border-radius: 3px;
   }
   .box.outer {
     padding: 1rem;
