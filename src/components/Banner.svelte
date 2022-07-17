@@ -9,6 +9,9 @@
     webpSrc="img/couple.webp" 
     cssClass="cover"
   />
+  <div class="headline">
+    <h1>Lindsay + Nathan</h1>
+  </div>
 </div>
 
 <style>
@@ -16,5 +19,21 @@
     width: 100%;
     max-width: 2800px;
     margin: auto;
+    position: relative;
+  }
+  .headline {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .headline h1 {
+    position: relative;
+    top: 20%;
+    color: black;
+    font-size: 5rem;
   }
 </style>

@@ -23,7 +23,7 @@
 <style>
   header {
     padding: 1rem 0;
-    font-size: 17px;
+    font-size: 18px;
   }
   ul {
     list-style: none;
