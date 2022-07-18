@@ -2,6 +2,7 @@
   import Header from "../components/layout/Header.svelte";
   import Footer from "../components/layout/Footer.svelte";
   import Banner from "../components/Banner.svelte";
+  import BannerGrid from "../components/BannerGrid.svelte";
   import Announce from "../components/Announce.svelte";
   import Details from "../components/Details.svelte";
   import Form from "../components/Form.svelte";
@@ -13,7 +14,7 @@
 
 <Header />
 
-<Banner />
+<BannerGrid />
 
 <div>
   <div class="container">
