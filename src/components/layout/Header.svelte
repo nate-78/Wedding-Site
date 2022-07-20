@@ -5,13 +5,13 @@
         September 3, 2022
       </div>
 
-      <div>
+      <div class="hidden-mobile">
         Birmingham, AL
       </div>
 
       <nav>
         <ul>
-          <li><a href="#when-and-where">When &amp; Where</a></li>
+          <li class="hidden-mobile"><a href="#when-and-where">When &amp; Where</a></li>
           <li><a href="#rsvp">RSVP</a></li>
         </ul>
       </nav>
@@ -23,7 +23,7 @@
 <style>
   header {
     padding: 1rem 0;
-    font-size: 18px;
+    font-size: 16px;
   }
   ul {
     list-style: none;
@@ -38,5 +38,11 @@
 
   .row {
     align-items: center;
+  }
+
+  @media (max-width: 767px) {
+    .hidden-mobile {
+      display: none;
+    }
   }
 </style>

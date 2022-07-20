@@ -31,7 +31,7 @@
     text-align: center;
   }
   .form {
-    background: white;
+    background: var(--white);
     border-radius: 3px;
     width: 100%;
     max-width: 570px;

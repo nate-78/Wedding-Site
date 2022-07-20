@@ -33,7 +33,7 @@
 
 <style>
   .box {
-    border: 2px solid white;
+    border: 2px solid var(--font-color-dark);
     border-radius: 3px;
   }
   .box.outer {
@@ -42,5 +42,12 @@
   }
   .box.inner {
     padding: 4rem 1rem;
+  }
+
+  @media (max-width: 360px) {
+    .box.outer {
+      border: none;
+      padding: none;
+    }
   }
 </style>

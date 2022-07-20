@@ -36,4 +36,10 @@
     font-size: 1.4rem;
     margin-top: 0;
   }
+
+  @media (max-width: 991px) {
+    p {
+      font-size: 1rem;
+    }
+  }
 </style>

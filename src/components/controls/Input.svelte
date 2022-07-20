@@ -61,10 +61,10 @@
   .form-control input {
     height: 50px;
     width: 100%;
-    background: white;
+    background: transparent;
     border: none;
     padding: 13px 5px 0;
-    border-bottom: 3px solid var(--olive-light);
+    border-bottom: 3px solid var(--font-color-dark);
     font-size: 1rem;
     font-family: "EB Garamond", serif;
   }

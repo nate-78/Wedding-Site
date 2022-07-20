@@ -12,7 +12,7 @@
     <!-- <div class="huge">
       &amp;
     </div> -->
-    <img src="img/And.png" alt="and" />
+    <img src="img/And2.png" alt="and" />
   </div>
   <div class="col right">
     <span>James</span>
@@ -34,6 +34,7 @@
     font-size: 1.7rem;
     text-transform: uppercase;
     letter-spacing: 21px;
+    font-family: var(--font-headings);
   }
   /* .col.left {
     text-align: right;
@@ -51,5 +52,25 @@
     width: 150px;
     position: relative;
     top: 30px;
-}
+  }
+
+  @media (max-width: 991px) {
+    .row {
+      flex-direction: column;
+    }
+    .col span {
+      font-size: 1.3rem;
+    }
+    img {
+      width: 67px;
+      top: 0;
+      margin: 1rem auto;
+    }
+  }
+  @media (max-width: 550px) {
+    .col span {
+      font-size: 1rem;
+      letter-spacing: 15px;
+    }
+  }
 </style>

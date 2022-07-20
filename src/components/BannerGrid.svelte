@@ -69,6 +69,10 @@
     position: relative;
     color: black;
     font-size: 5rem;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .headline h1 img {
     width: 570px;
