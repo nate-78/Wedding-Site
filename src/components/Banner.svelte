@@ -3,15 +3,10 @@
 </script>
 
 <div class="banner">
-  <Image alt="couple kissing in a field"
-    imgSrc="img/couple.jpg"
-    imgType="image/jpeg" 
-    webpSrc="img/couple.webp" 
-    cssClass="cover"
-  />
+  <img src="img/us/morris-grainy.png" alt="" />
   <div class="headline">
     <h1>
-      <img src="img/L&N.png" alt="Lindsay + Nathan" />
+      <img src="img/L&N2.png" alt="Lindsay + Nathan" />
     </h1>
   </div>
 </div>
@@ -23,6 +18,9 @@
     margin: auto;
     position: relative;
     margin-bottom: 3rem;
+  }
+  .banner > img {
+    width: 100%;
   }
   .headline {
     position: absolute;

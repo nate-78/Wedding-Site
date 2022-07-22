@@ -14,7 +14,7 @@
 
 <Header />
 
-<BannerGrid />
+<Banner />
 
 <div>
   <div class="container">
