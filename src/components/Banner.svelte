@@ -1,5 +1,5 @@
 <div class="banner">
-  <img src="img/us/morris-grainy.png" alt="" />
+  <img src="img/us/morris-grainy.jpg" alt="Lindsay and Nathan on Morris Ave" />
   <div class="headline">
     <h1>
       <div class="img">
