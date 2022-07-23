@@ -49,10 +49,15 @@
   }
   .form-control label {
     position: absolute;
-    left: 5px;
+    /* left: 5px; */
     top: 15px;
     transition: .3s;
     color: #555;
+    font-family: var(--font-headings);
+    font-style: italic;
+    display: block;
+    width: 100%;
+    text-align: center;
   }
   .form-control.active label {
     top: 0;
@@ -66,6 +71,9 @@
     padding: 13px 5px 0;
     border-bottom: 3px solid var(--font-color-dark);
     font-size: 1rem;
-    font-family: "EB Garamond", serif;
+    font-style: italic;
+    font-family: var(--font-headings);
+    letter-spacing: 5px;
+    text-align: center;
   }
 </style>

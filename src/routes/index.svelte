@@ -12,8 +12,6 @@
   <title>Lindsay & Nathan's Wedding</title>
 </svelte:head>
 
-<Header />
-
 <Banner />
 
 <div>

@@ -1,12 +1,10 @@
-<script>
-  import Image from "./controls/Image.svelte";
-</script>
-
 <div class="banner">
   <img src="img/us/morris-grainy.png" alt="" />
   <div class="headline">
     <h1>
-      <img src="img/L&N2.png" alt="Lindsay + Nathan" />
+      <div class="img">
+        <img src="img/L&N2.png" alt="Lindsay + Nathan" />
+      </div>
     </h1>
   </div>
 </div>
@@ -18,6 +16,7 @@
     margin: auto;
     position: relative;
     margin-bottom: 3rem;
+    margin-top: 3rem;
   }
   .banner > img {
     width: 100%;
@@ -35,8 +34,21 @@
     position: relative;
     color: black;
     font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  .headline h1 img {
-    width: 570px;
+  .headline h1 .img {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    border: 3px solid var(--white);
+  }
+  .headline h1 .img img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+    padding: 15px;
   }
 </style>

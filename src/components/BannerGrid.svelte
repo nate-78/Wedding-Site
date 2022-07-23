@@ -1,7 +1,3 @@
-<script>
-  import Image from "./controls/Image.svelte";
-</script>
-
 <div class="banner">
   <div class="grid">
     <div>

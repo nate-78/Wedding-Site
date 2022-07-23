@@ -6,17 +6,20 @@
 <hr />
 <div class="col" id="when-and-where">
   <div>
-    <h2>September 3, 2022</h2>
-    <p>
-      5pm - 8pm
-    </p>
+    <h3>
+      Saturday, the Third of September<br />
+      Two Thousand Twenty-Two
+    </h3>
+    <span>
+      at five o'clock in the evening
+    </span>
   </div>
   <div>
-    <h2>EastWest</h2>
-    <p>
-      2306 2nd Ave N <br />
+    <h3 class="mt-2">
+      EastWest &bull; 2306 2nd Ave N <br />
       Birmingham, AL 35203
-    </p>
+
+    </h3>
   </div>
 </div>
 <hr />
@@ -29,17 +32,21 @@
   .col div * {
     text-align: center;
   }
-  h2 {
-    margin-bottom: .75rem;
+  h3 {
+    margin-bottom: 0.1rem;
   }
-  p {
-    font-size: 1.4rem;
-    margin-top: 0;
+  span {
+    font-style: italic;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .mt-2 {
+    margin-top: 2rem;
   }
 
   @media (max-width: 991px) {
-    p {
-      font-size: 1rem;
-    }
+    
   }
 </style>
