@@ -76,4 +76,10 @@
     letter-spacing: 5px;
     text-align: center;
   }
+
+  @media (max-width: 500px) {
+    label, input {
+      letter-spacing: 1px;
+    }
+  }
 </style>

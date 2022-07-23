@@ -51,4 +51,18 @@
     object-position: center;
     padding: 15px;
   }
+
+
+  @media (max-width: 991px) {
+    .headline h1 .img {
+      width: 30vw;
+      height: 30vw;
+    }
+  }
+  @media (max-width: 430px) {
+    .headline h1 .img {
+      width: 130px;
+      height: 130px;
+    }
+  }
 </style>

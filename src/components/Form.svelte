@@ -75,7 +75,6 @@
 
 
 <div id="rsvp">
-  <hr />
   <h2>RSVP</h2>
   <div class="form">
     <!-- show success message if form has been submitted -->
@@ -131,13 +130,7 @@
 
 
 <style>
-  hr {
-    margin: 3rem auto;
-    width: 90%;
-    max-width: 260px;
-    border: none;
-    border-top: 3px solid var(--font-color-dark);
-  }
+  
   h2 {
     text-align: center;
   }
@@ -176,5 +169,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  @media (max-width: 500px) {
+    select {
+      letter-spacing: 1px;
+    }
   }
 </style>
