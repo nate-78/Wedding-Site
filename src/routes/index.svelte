@@ -6,6 +6,8 @@
   import Announce from "../components/Announce.svelte";
   import Details from "../components/Details.svelte";
   import Form from "../components/Form.svelte";
+  import Registry from "../components/Registry.svelte";
+  import DressCode from "../components/DressCode.svelte";
 </script>
 
 <svelte:head>
@@ -21,6 +23,8 @@
         <Announce />
         <Details />
         <Form />
+        <Registry />
+        <DressCode />
       </div>
     </div>
   </div>
